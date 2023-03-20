@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  form(action="/form") 
+    button Add Message
+
+  each val in messages 
+    div(class="message-container")
+      div= val.message_text
+      div= val.author_name
+      div= val.creation_date
+
+
+

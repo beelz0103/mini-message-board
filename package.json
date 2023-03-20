@@ -1,0 +1,24 @@
+{
+  "name": "mini-message-board",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "starts": "SET DEBUG=mini-message-board:* & nodemon start ./bin/www & npm run build"
+  },
+  "dependencies": {
+    "async": "^3.2.4",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "mongoose": "^6.9.0",
+    "morgan": "~1.9.1",
+    "react": "^18.2.0",
+    "webpack": "^5.76.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.0.1"
+  }
+}

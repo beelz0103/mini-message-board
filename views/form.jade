@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  form(action="/form/addnew", method="POST") 
+    div
+      div
+        label Message
+        input(type="text", name="message", required)
+      div
+        label Author
+        input(type="text", name="author", required)
+      button submit
+ 
+
+
+
+
