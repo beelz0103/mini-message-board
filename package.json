@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "webpack",
-    "starts": "SET DEBUG=mini-message-board:* & nodemon start ./bin/www & npm run build"
+    "start": "SET DEBUG=mini-message-board:* & nodemon start ./bin/www & npm run build"
   },
   "dependencies": {
     "async": "^3.2.4",
