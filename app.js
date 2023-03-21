@@ -15,7 +15,7 @@ require("dotenv").config();
 // Set up mongoose connection
 const mongoose = require("mongoose");
 mongoose.set("strictQuery", false);
-constdev_db_url = `mongodb+srv://tet:vGfeDKnwCNN8a7XS@cluster0.djbois6.mongodb.net/mini-message-board?retryWrites=true&w=majority`;
+const dev_db_url = `mongodb+srv://tet:vGfeDKnwCNN8a7XS@cluster0.djbois6.mongodb.net/mini-message-board?retryWrites=true&w=majority`;
 
 const mongoDB = dev_db_url;
 
