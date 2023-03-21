@@ -15,9 +15,9 @@ require("dotenv").config();
 // Set up mongoose connection
 const mongoose = require("mongoose");
 mongoose.set("strictQuery", false);
-constdev_db_url = `mongodb+srv://tet:${process.env.DATABASE_PASSOWORD}@cluster0.djbois6.mongodb.net/mini-message-board?retryWrites=true&w=majority`;
+constdev_db_url = `mongodb+srv://tet:vGfeDKnwCNN8a7XS@cluster0.djbois6.mongodb.net/mini-message-board?retryWrites=true&w=majority`;
 
-const mongoDB = process.env.MONGODB_URI || dev_db_url;
+const mongoDB = dev_db_url;
 
 main().catch((err) => console.log(err));
 async function main() {
